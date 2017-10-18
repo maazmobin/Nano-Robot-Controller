@@ -279,6 +279,11 @@ OUT2</text>
 <text x="79" y="37.5" size="0.8128" layer="136" font="vector" ratio="12">D6</text>
 <text x="2" y="15" size="1.27" layer="136" font="vector" ratio="14">USB
 INSERT</text>
+<text x="75" y="78" size="1.27" layer="136" font="vector" ratio="14" rot="MR0">https://github.com/maazmobin/Nano-Robot-Controller</text>
+<text x="99" y="63.5" size="1.27" layer="137" font="vector" ratio="14" rot="MR0">#MOTOR-1 DRIVE 
+   D13  D12  D10
+#MOTOR-2 DRIVE
+   D7    D6    D9</text>
 </plain>
 <libraries>
 <library name="Seeed-Capacitor-2016">
