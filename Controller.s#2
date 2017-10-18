@@ -5871,7 +5871,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="D13" library="adafruit" deviceset="1N4004" device=""/>
 <part name="Q9" library="transistor-power" deviceset="IRF540" device=""/>
 <part name="POWER4" library="Seeed-Connector -2016" deviceset="SCREW-TERMINAL-GREEN(2P-5.0)" device="" value="GREEN-2P-5.0"/>
-<part name="LS1" library="EjaadTech" deviceset="TH-BUZZER-12MM" device="-PTH"/>
+<part name="BUZZER" library="EjaadTech" deviceset="TH-BUZZER-12MM" device="-PTH"/>
 <part name="Q10" library="EjaadTech" deviceset="SMD-TRANSISTOR-NPN-SOT-23" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M03" device="POLAR"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M03" device="POLAR"/>
@@ -5950,7 +5950,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <instance part="D13" gate="1" x="10.16" y="21.59" rot="R180"/>
 <instance part="Q9" gate="G$1" x="425.45" y="-45.72"/>
 <instance part="POWER4" gate="G$1" x="461.01" y="-44.45"/>
-<instance part="LS1" gate="G$1" x="378.46" y="-55.88"/>
+<instance part="BUZZER" gate="G$1" x="378.46" y="-55.88"/>
 <instance part="Q10" gate="G$1" x="375.92" y="-66.04"/>
 <instance part="J1" gate="J$1" x="303.53" y="34.29" rot="R180"/>
 <instance part="J2" gate="J$1" x="279.4" y="34.29" rot="R180"/>
@@ -6846,7 +6846,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="368.3" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="LS1" gate="G$1" pin="2"/>
+<pinref part="BUZZER" gate="G$1" pin="2"/>
 <wire x1="381" y1="-58.42" x2="387.35" y2="-58.42" width="0.1524" layer="91"/>
 <label x="387.35" y="-58.42" size="1.778" layer="95"/>
 </segment>
@@ -7059,7 +7059,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <net name="N$26" class="0">
 <segment>
 <pinref part="Q10" gate="G$1" pin="C"/>
-<pinref part="LS1" gate="G$1" pin="1"/>
+<pinref part="BUZZER" gate="G$1" pin="1"/>
 <wire x1="378.46" y1="-60.96" x2="378.46" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
