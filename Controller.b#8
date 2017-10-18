@@ -910,38 +910,38 @@ design rules under a new name.</description>
 <elements>
 <element name="C1" library="Seeed-Capacitor-2016" package="PC-D5.3MM" value="0.1uf" x="17.37" y="51.34" smashed="yes">
 <attribute name="MPN" value="KS 100uF/16V" x="17.37" y="51.34" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="15.465" y="54.261" size="0.889" layer="25" ratio="11"/>
-<attribute name="VALUE" x="15.846" y="47.149" size="0.635" layer="27" ratio="10"/>
+<attribute name="NAME" x="15" y="54" size="0.889" layer="25" ratio="11"/>
+<attribute name="VALUE" x="19" y="54" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="C2" library="Seeed-Capacitor-2016" package="PC-D5.3MM" value="0.1uf" x="37.49" y="51.66" smashed="yes">
 <attribute name="MPN" value="KS 100uF/16V" x="37.49" y="51.66" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="35.585" y="54.581" size="0.889" layer="25" ratio="11"/>
-<attribute name="VALUE" x="35.966" y="47.469" size="0.635" layer="27" ratio="10"/>
+<attribute name="VALUE" x="38.966" y="54.469" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="C3" library="Seeed-Capacitor-2016" package="PC-D5.3MM" value="100uf" x="50" y="53" smashed="yes" rot="R180">
 <attribute name="MPN" value="KS 100uF/16V" x="50" y="53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="51.905" y="50.079" size="0.889" layer="25" ratio="11" rot="R180"/>
-<attribute name="VALUE" x="51.524" y="57.191" size="0.635" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="48" y="51" size="0.889" layer="25" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="49" y="50" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C5" library="Seeed-Capacitor-2016" package="PC-D5.3MM" value="10uf" x="49.995" y="59.09" smashed="yes" rot="R180">
 <attribute name="MPN" value="KS 100uF/16V" x="49.995" y="59.09" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="51.9" y="56.169" size="0.889" layer="25" ratio="11" rot="R180"/>
-<attribute name="VALUE" x="51.519" y="63.281" size="0.635" layer="27" ratio="10" rot="R180"/>
+<attribute name="NAME" x="50" y="64" size="0.889" layer="25" ratio="11" rot="R180"/>
+<attribute name="VALUE" x="50" y="63" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C6" library="Seeed-Capacitor-2016" package="PC-D5.3MM" value="10uf" x="62.01" y="12.66" smashed="yes">
 <attribute name="MPN" value="KS 100uF/16V" x="62.01" y="12.66" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="60.105" y="15.581" size="0.889" layer="25" ratio="11"/>
-<attribute name="VALUE" x="60.486" y="8.469" size="0.635" layer="27" ratio="10"/>
+<attribute name="NAME" x="58" y="15" size="0.889" layer="25" ratio="11"/>
+<attribute name="VALUE" x="58" y="14" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="C7" library="Seeed-Capacitor-2016" package="PC-D5.3MM" value="0.1uf" x="61.39" y="51.66" smashed="yes">
 <attribute name="MPN" value="KS 100uF/16V" x="61.39" y="51.66" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="59.485" y="54.581" size="0.889" layer="25" ratio="11"/>
-<attribute name="VALUE" x="59.866" y="47.469" size="0.635" layer="27" ratio="10"/>
+<attribute name="VALUE" x="62.866" y="54.469" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="C8" library="Seeed-Capacitor-2016" package="PC-D5.3MM" value="0.1uf" x="82.77" y="51.66" smashed="yes">
 <attribute name="MPN" value="KS 100uF/16V" x="82.77" y="51.66" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="80.865" y="54.581" size="0.889" layer="25" ratio="11"/>
-<attribute name="VALUE" x="81.246" y="47.469" size="0.635" layer="27" ratio="10"/>
+<attribute name="VALUE" x="84.246" y="54.469" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="D1" library="adafruit" package="DO41-10" value="1N4004" x="12" y="44" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.651" y="48.032" size="1.27" layer="25" ratio="10" rot="R270"/>
@@ -1046,8 +1046,8 @@ design rules under a new name.</description>
 <element name="U$1" library="Arduino-clone" package="NANO" value="NANO" x="45.37" y="18.72" smashed="yes" rot="R90"/>
 <element name="C13" library="Seeed-Capacitor-2016" package="PC-D5.3MM" value="100uf" x="62" y="19" smashed="yes">
 <attribute name="MPN" value="KS 100uF/16V" x="-9.12" y="144.73" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="60.095" y="21.921" size="0.889" layer="25" ratio="11"/>
-<attribute name="VALUE" x="60.476" y="14.809" size="0.635" layer="27" ratio="10"/>
+<attribute name="NAME" x="65" y="17" size="0.889" layer="25" ratio="11"/>
+<attribute name="VALUE" x="65" y="16" size="0.635" layer="27" ratio="10"/>
 </element>
 <element name="C14" library="Seeed-Capacitor-2016" package="PC-D5.3MM" value="100uf" x="10" y="3.5" smashed="yes">
 <attribute name="MPN" value="KS 100uF/16V" x="-77.63" y="115.26" size="1.778" layer="27" display="off"/>
@@ -1057,32 +1057,24 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.7538" y="10.3588" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="11.83" y="5.355" size="1.27" layer="27"/>
 </element>
-<element name="J3" library="Seeed-OPL-Connector" package="H2-5.0-10.5X8.0MM" value="GREEN-2P-5.0" x="88.74" y="12.34" smashed="yes">
-<attribute name="NAME" x="86.835" y="18.055" size="0.889" layer="25" ratio="11"/>
-</element>
-<element name="J4" library="Seeed-OPL-Connector" package="H2-5.0-10.5X8.0MM" value="GREEN-2P-5.0" x="95.17" y="12.34" smashed="yes">
-<attribute name="NAME" x="93.265" y="18.055" size="0.889" layer="25" ratio="11"/>
-</element>
-<element name="POWER1" library="Seeed-Connector -2016" package="H2-5.0-10.5X8.0MM" value="GREEN-2P-5.0" x="95" y="44" smashed="yes" rot="R180">
-<attribute name="NAME" x="96.905" y="38.285" size="0.889" layer="25" ratio="11" rot="R180"/>
-</element>
-<element name="POWER3" library="Seeed-Connector -2016" package="H2-5.0-10.5X8.0MM" value="GREEN-2P-5.0" x="5" y="43" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.905" y="37.285" size="0.889" layer="25" ratio="11" rot="R180"/>
-</element>
+<element name="J3" library="Seeed-OPL-Connector" package="H2-5.0-10.5X8.0MM" value="GREEN-2P-5.0" x="88.74" y="12.34" smashed="yes"/>
+<element name="J4" library="Seeed-OPL-Connector" package="H2-5.0-10.5X8.0MM" value="GREEN-2P-5.0" x="95.17" y="12.34" smashed="yes"/>
+<element name="POWER1" library="Seeed-Connector -2016" package="H2-5.0-10.5X8.0MM" value="GREEN-2P-5.0" x="95" y="44" smashed="yes" rot="R180"/>
+<element name="POWER3" library="Seeed-Connector -2016" package="H2-5.0-10.5X8.0MM" value="GREEN-2P-5.0" x="5" y="43" smashed="yes" rot="R180"/>
 <element name="D14" library="adafruit" package="DO201T15" value="" x="89.5" y="21.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="100" y="24" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="92.04" y="23.659" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="D13" library="adafruit" package="DO41-10" value="1N4004" x="77.5" y="13.5" smashed="yes">
-<attribute name="NAME" x="75.468" y="15.151" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="68.218" y="12.901" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="Q9" library="transistor-power" package="TO220BV" value="IRF540" x="62.5" y="6.5" smashed="yes"/>
 <element name="POWER4" library="Seeed-Connector -2016" package="H2-5.0-10.5X8.0MM" value="GREEN-2P-5.0" x="77" y="7" smashed="yes" rot="R90">
 <attribute name="NAME" x="71.285" y="5.095" size="0.889" layer="25" ratio="11" rot="R90"/>
 </element>
-<element name="LS1" library="EjaadTech" package="BUZZER-12MM" value="TH-BUZZER-12MM-PTH" x="71.5" y="22" smashed="yes">
-<attribute name="NAME" x="71.5" y="28.096" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="71.5" y="27.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="BUZZER" library="EjaadTech" package="BUZZER-12MM" value="TH-BUZZER-12MM-PTH" x="71.5" y="22" smashed="yes">
+<attribute name="NAME" x="70.5" y="28.096" size="0.8128" layer="25" font="vector" ratio="12" align="bottom-center"/>
+<attribute name="VALUE" x="71.5" y="20.588" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="Q10" library="EjaadTech" package="SOT-23" value="" x="63" y="26" smashed="yes">
 <attribute name="NAME" x="65.095" y="25.905" size="0.889" layer="25" ratio="11"/>
@@ -1167,9 +1159,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="40.4915" y="19.8255" size="0.8128" layer="26" font="vector" rot="MR270"/>
 <attribute name="VALUE" x="45.1905" y="17.0795" size="0.4064" layer="28" rot="MR270"/>
 </element>
-<element name="GROUNDING" library="SparkFun-Connectors" package="1X02" value="" x="81.5" y="27.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="83.3288" y="28.8462" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="78.325" y="28.77" size="1.27" layer="27" rot="R270"/>
+<element name="MOTOR-GROUND" library="SparkFun-Connectors" package="1X02" value="" x="81.5" y="26.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="85.8462" y="24.9212" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="82.77" y="29.675" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="3V3" library="SparkFun-Connectors" package="1X02" value="" x="6" y="8" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.3462" y="6.1712" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -1216,7 +1208,7 @@ design rules under a new name.</description>
 <wire x1="3" y1="12" x2="3" y2="11.111" width="0.3048" layer="1"/>
 <wire x1="3" y1="11.111" x2="3.111" y2="11" width="0.3048" layer="1"/>
 <contactref element="C3" pad="-"/>
-<contactref element="GROUNDING" pad="2"/>
+<contactref element="MOTOR-GROUND" pad="2"/>
 <polygon width="0.3048" layer="16" rank="3">
 <vertex x="-4" y="58"/>
 <vertex x="-4" y="-3.5"/>
@@ -1907,7 +1899,7 @@ design rules under a new name.</description>
 <signal name="5V">
 <contactref element="C13" pad="+"/>
 <contactref element="U$1" pad="5V"/>
-<contactref element="LS1" pad="-"/>
+<contactref element="BUZZER" pad="-"/>
 <contactref element="J7" pad="1"/>
 <contactref element="J10" pad="1"/>
 <contactref element="J6" pad="1"/>
@@ -2144,7 +2136,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$26">
 <contactref element="Q10" pad="3"/>
-<contactref element="LS1" pad="+"/>
+<contactref element="BUZZER" pad="+"/>
 <wire x1="63" y1="27.016" x2="71.984" y2="27.016" width="0.4064" layer="1"/>
 <wire x1="71.984" y1="27.016" x2="75" y2="24" width="0.4064" layer="1"/>
 <wire x1="75" y1="24" x2="75" y2="22.25" width="0.4064" layer="1"/>
@@ -2191,12 +2183,12 @@ design rules under a new name.</description>
 <via x="64.5" y="59.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="76" y="59.5" extent="1-16" drill="0.6" shape="square"/>
 <via x="88" y="59.5" extent="1-16" drill="0.6" shape="square"/>
-<contactref element="GROUNDING" pad="1"/>
-<wire x1="81.5" y1="27.5" x2="85.42" y2="27.5" width="2.1844" layer="16"/>
-<wire x1="85.42" y1="27.5" x2="85.92" y2="27" width="2.1844" layer="16"/>
+<contactref element="MOTOR-GROUND" pad="1"/>
+<wire x1="81.5" y1="26.5" x2="85.42" y2="26.5" width="2.1844" layer="16"/>
+<wire x1="85.42" y1="26.5" x2="85.92" y2="27" width="2.1844" layer="16"/>
 <wire x1="85.92" y1="33" x2="85.5" y2="33" width="1.6764" layer="16"/>
 <wire x1="85.5" y1="33" x2="81.5" y2="29" width="1.6764" layer="16"/>
-<wire x1="81.5" y1="29" x2="81.5" y2="27.5" width="1.6764" layer="16"/>
+<wire x1="81.5" y1="29" x2="81.5" y2="26.5" width="1.6764" layer="16"/>
 <wire x1="96.54" y1="57.65" x2="96.54" y2="57.46" width="1.6764" layer="1"/>
 <wire x1="96.54" y1="57.46" x2="98.5" y2="55.5" width="1.6764" layer="1"/>
 <wire x1="98.5" y1="55.5" x2="98.5" y2="25.5" width="1.6764" layer="1"/>

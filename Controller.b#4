@@ -284,6 +284,17 @@ INSERT</text>
    D13  D12  D10
 #MOTOR-2 DRIVE
    D7    D6    D9</text>
+<text x="29" y="15" size="1.27" layer="137" font="vector" ratio="14">ARDUINO NANO</text>
+<text x="66.5" y="36.5" size="0.8128" layer="137" font="vector" ratio="12">SERIAL</text>
+<text x="72" y="36.5" size="0.8128" layer="137" font="vector" ratio="12">I2C</text>
+<text x="11" y="53" size="0.8128" layer="137" font="vector" ratio="12">0K1</text>
+<text x="23" y="53" size="0.8128" layer="137" font="vector" ratio="12">0K1</text>
+<text x="32" y="53" size="0.8128" layer="137" font="vector" ratio="12">0K1</text>
+<text x="44" y="53" size="0.8128" layer="137" font="vector" ratio="12">0K1</text>
+<text x="56" y="53" size="0.8128" layer="137" font="vector" ratio="12">0K1</text>
+<text x="66.5" y="53" size="0.8128" layer="137" font="vector" ratio="12">0K1</text>
+<text x="78" y="53" size="0.8128" layer="137" font="vector" ratio="12">0K1</text>
+<text x="88" y="53" size="0.8128" layer="137" font="vector" ratio="12">0K1</text>
 </plain>
 <libraries>
 <library name="Seeed-Capacitor-2016">

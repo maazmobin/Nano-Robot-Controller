@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5414,8 +5414,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-2.54" y1="-4.953" x2="-2.54" y2="4.953" width="0.127" layer="21"/>
 <circle x="0" y="2.54" radius="2.2895" width="0.127" layer="21"/>
 <circle x="0" y="-2.54" radius="2.2895" width="0.127" layer="21"/>
-<pad name="1" x="0" y="2.5" drill="1.1684" diameter="2.032" shape="square"/>
-<pad name="2" x="0" y="-2.5" drill="1.1684" diameter="2.032"/>
+<pad name="1" x="0" y="2.5" drill="1.4" diameter="2.1844" shape="square"/>
+<pad name="2" x="0" y="-2.5" drill="1.4" diameter="2.1844"/>
 <text x="-1.905" y="5.715" size="0.889" layer="25" ratio="11">&gt;NAME</text>
 <text x="-2.54" y="-6.35" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
 <rectangle x1="-4.064" y1="-5.207" x2="4.064" y2="5.207" layer="39"/>
@@ -5901,7 +5901,6 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="LM1117-5V" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="MOTOR-GROUND" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="J9" library="Seeed-OPL-Connector" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(3P-2.54)" device="" value="3p-2.54"/>
-<part name="J14" library="SparkFun-Connectors" deviceset="M03" device="SMD_RA_FEMALE" value="1x3 RA Female .1&quot;"/>
 </parts>
 <sheets>
 <sheet>
@@ -5981,7 +5980,6 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <instance part="LM1117-5V" gate="G$1" x="290.83" y="-6.35"/>
 <instance part="MOTOR-GROUND" gate="G$1" x="36.83" y="-3.81" rot="R180"/>
 <instance part="J9" gate="G$1" x="58.42" y="-5.08"/>
-<instance part="J14" gate="J$1" x="373.38" y="66.04" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6873,9 +6871,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="43.18" y="-8.89" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="370.84" y1="58.42" x2="370.84" y2="53.34" width="0.1524" layer="91"/>
-<label x="368.3" y="53.34" size="1.778" layer="95"/>
-<pinref part="J14" gate="J$1" pin="1"/>
+<wire x1="384.81" y1="59.69" x2="384.81" y2="57.15" width="0.1524" layer="91"/>
+<label x="384.81" y="57.15" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -6905,11 +6903,6 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <wire x1="50.8" y1="-1.27" x2="43.18" y2="-1.27" width="0.1524" layer="91"/>
 <label x="43.18" y="0" size="1.778" layer="95"/>
 <pinref part="J9" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
-<wire x1="375.92" y1="58.42" x2="375.92" y2="53.34" width="0.1524" layer="91"/>
-<label x="377.19" y="53.34" size="1.778" layer="95"/>
-<pinref part="J14" gate="J$1" pin="3"/>
 </segment>
 </net>
 <net name="VS3" class="0">
@@ -7145,18 +7138,6 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <wire x1="29.21" y1="-3.81" x2="26.67" y2="-3.81" width="0.1524" layer="91"/>
 <wire x1="26.67" y1="-3.81" x2="26.67" y2="5.08" width="0.1524" layer="91"/>
 <label x="26.67" y="3.81" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="V" class="0">
-<segment>
-<wire x1="384.81" y1="59.69" x2="384.81" y2="57.15" width="0.1524" layer="91"/>
-<label x="384.81" y="57.15" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="J7" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="373.38" y1="58.42" x2="373.38" y2="53.34" width="0.1524" layer="91"/>
-<label x="373.38" y="53.34" size="1.778" layer="95"/>
-<pinref part="J14" gate="J$1" pin="2"/>
 </segment>
 </net>
 </nets>

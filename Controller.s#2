@@ -5834,10 +5834,10 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="D2" library="adafruit" deviceset="1N4004" device=""/>
 <part name="C1" library="Seeed-Capacitor-2016" deviceset="DIP-ALUMINUM-100UF-16V(D5-H7MM)" device="" value="0.1uf"/>
 <part name="C2" library="Seeed-Capacitor-2016" deviceset="DIP-ALUMINUM-100UF-16V(D5-H7MM)" device="" value="0.1uf"/>
-<part name="Q2" library="transistor-fet" deviceset="IRF540" device=""/>
-<part name="Q3" library="transistor-fet" deviceset="IRF540" device=""/>
-<part name="Q4" library="transistor-fet" deviceset="IRF540" device=""/>
-<part name="Q5" library="transistor-fet" deviceset="IRF540" device=""/>
+<part name="Q2" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
+<part name="Q3" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
+<part name="Q4" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
+<part name="Q5" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
 <part name="D3" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D4" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D5" library="adafruit" deviceset="1N4004" device=""/>
@@ -5851,10 +5851,10 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="D8" library="adafruit" deviceset="1N4004" device=""/>
 <part name="C7" library="Seeed-Capacitor-2016" deviceset="DIP-ALUMINUM-100UF-16V(D5-H7MM)" device="" value="0.1uf"/>
 <part name="C8" library="Seeed-Capacitor-2016" deviceset="DIP-ALUMINUM-100UF-16V(D5-H7MM)" device="" value="0.1uf"/>
-<part name="Q1" library="transistor-fet" deviceset="IRF540" device=""/>
-<part name="Q6" library="transistor-fet" deviceset="IRF540" device=""/>
-<part name="Q7" library="transistor-fet" deviceset="IRF540" device=""/>
-<part name="Q8" library="transistor-fet" deviceset="IRF540" device=""/>
+<part name="Q1" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
+<part name="Q6" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
+<part name="Q7" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
+<part name="Q8" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
 <part name="D9" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D10" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D11" library="adafruit" deviceset="1N4004" device=""/>
