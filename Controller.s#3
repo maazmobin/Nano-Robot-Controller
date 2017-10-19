@@ -5414,8 +5414,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-2.54" y1="-4.953" x2="-2.54" y2="4.953" width="0.127" layer="21"/>
 <circle x="0" y="2.54" radius="2.2895" width="0.127" layer="21"/>
 <circle x="0" y="-2.54" radius="2.2895" width="0.127" layer="21"/>
-<pad name="1" x="0" y="2.5" drill="1.1684" diameter="2.032" shape="square"/>
-<pad name="2" x="0" y="-2.5" drill="1.1684" diameter="2.032"/>
+<pad name="1" x="0" y="2.5" drill="1.4" diameter="2.1844" shape="square"/>
+<pad name="2" x="0" y="-2.5" drill="1.4" diameter="2.1844"/>
 <text x="-1.905" y="5.715" size="0.889" layer="25" ratio="11">&gt;NAME</text>
 <text x="-2.54" y="-6.35" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
 <rectangle x1="-4.064" y1="-5.207" x2="4.064" y2="5.207" layer="39"/>
@@ -5834,10 +5834,10 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="D2" library="adafruit" deviceset="1N4004" device=""/>
 <part name="C1" library="Seeed-Capacitor-2016" deviceset="DIP-ALUMINUM-100UF-16V(D5-H7MM)" device="" value="0.1uf"/>
 <part name="C2" library="Seeed-Capacitor-2016" deviceset="DIP-ALUMINUM-100UF-16V(D5-H7MM)" device="" value="0.1uf"/>
-<part name="Q2" library="transistor-fet" deviceset="IRF540" device=""/>
-<part name="Q3" library="transistor-fet" deviceset="IRF540" device=""/>
-<part name="Q4" library="transistor-fet" deviceset="IRF540" device=""/>
-<part name="Q5" library="transistor-fet" deviceset="IRF540" device=""/>
+<part name="Q2" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
+<part name="Q3" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
+<part name="Q4" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
+<part name="Q5" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
 <part name="D3" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D4" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D5" library="adafruit" deviceset="1N4004" device=""/>
@@ -5851,10 +5851,10 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="D8" library="adafruit" deviceset="1N4004" device=""/>
 <part name="C7" library="Seeed-Capacitor-2016" deviceset="DIP-ALUMINUM-100UF-16V(D5-H7MM)" device="" value="0.1uf"/>
 <part name="C8" library="Seeed-Capacitor-2016" deviceset="DIP-ALUMINUM-100UF-16V(D5-H7MM)" device="" value="0.1uf"/>
-<part name="Q1" library="transistor-fet" deviceset="IRF540" device=""/>
-<part name="Q6" library="transistor-fet" deviceset="IRF540" device=""/>
-<part name="Q7" library="transistor-fet" deviceset="IRF540" device=""/>
-<part name="Q8" library="transistor-fet" deviceset="IRF540" device=""/>
+<part name="Q1" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
+<part name="Q6" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
+<part name="Q7" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
+<part name="Q8" library="transistor-fet" deviceset="IRF540" device="" value="IRF3205"/>
 <part name="D9" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D10" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D11" library="adafruit" deviceset="1N4004" device=""/>
@@ -5900,7 +5900,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="LM1117-3V3" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="LM1117-5V" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="MOTOR-GROUND" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="3V3" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="J9" library="Seeed-OPL-Connector" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(3P-2.54)" device="" value="3p-2.54"/>
 </parts>
 <sheets>
 <sheet>
@@ -5979,7 +5979,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <instance part="LM1117-3V3" gate="G$1" x="335.28" y="-5.08"/>
 <instance part="LM1117-5V" gate="G$1" x="290.83" y="-6.35"/>
 <instance part="MOTOR-GROUND" gate="G$1" x="36.83" y="-3.81" rot="R180"/>
-<instance part="3V3" gate="G$1" x="57.15" y="-2.54" rot="R180"/>
+<instance part="J9" gate="G$1" x="58.42" y="-5.08"/>
 </instances>
 <busses>
 </busses>
@@ -6135,9 +6135,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="26.67" y="-13.97" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="3V3" gate="G$1" pin="2"/>
-<wire x1="49.53" y1="-5.08" x2="44.45" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="-5.08" x2="44.45" y2="-5.08" width="0.1524" layer="91"/>
 <label x="43.18" y="-5.08" size="1.778" layer="95"/>
+<pinref part="J9" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="POWER" class="0">
@@ -6836,11 +6836,6 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <pinref part="J10" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="384.81" y1="59.69" x2="384.81" y2="57.15" width="0.1524" layer="91"/>
-<label x="384.81" y="57.15" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="J7" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="5.5V"/>
 <wire x1="373.38" y1="12.7" x2="368.3" y2="12.7" width="0.1524" layer="91"/>
 <label x="368.3" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -6870,6 +6865,16 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <pinref part="J5" gate="J$1" pin="1"/>
 <label x="242.57" y="38.1" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="P$3"/>
+<wire x1="50.8" y1="-8.89" x2="43.18" y2="-8.89" width="0.1524" layer="91"/>
+<label x="43.18" y="-8.89" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="384.81" y1="59.69" x2="384.81" y2="57.15" width="0.1524" layer="91"/>
+<label x="384.81" y="57.15" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="J7" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -6895,9 +6900,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <pinref part="J11" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="3V3" gate="G$1" pin="1"/>
-<wire x1="49.53" y1="-2.54" x2="43.18" y2="-2.54" width="0.1524" layer="91"/>
-<label x="43.18" y="-2.54" size="1.778" layer="95"/>
+<wire x1="50.8" y1="-1.27" x2="43.18" y2="-1.27" width="0.1524" layer="91"/>
+<label x="43.18" y="0" size="1.778" layer="95"/>
+<pinref part="J9" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VS3" class="0">
